@@ -35,10 +35,10 @@ In a terminal window, navigate to the project folder where steps.py is stored an
 ### Running fitbit_data.py:
 
 &nbsp;&nbsp;&nbsp;**Step 1:<br>** 
-&nbsp;&nbsp;&nbsp;Modify the file .env to include your access token (between quotes).  If your access token is more than 8 hours old, get a new one. 
+&nbsp;&nbsp;&nbsp;Modify the file .env to include your access token (between quotes).  
 
 &nbsp;&nbsp;&nbsp;**Step 2:<br>** 
-&nbsp;&nbsp;&nbsp;Run the program by typing the following command in the same terminal window: python3 fitbit_data.py (python in Windows).  Sample output below.  
+&nbsp;&nbsp;&nbsp;Run the program by typing the following command in the same terminal window: python3 fitbit_data.py (python in Windows).  Sample output below.  A 401 error means that your token has expired and needs to be refreshed. 
 
 ### Running fitbit_dashboard.py:
 
