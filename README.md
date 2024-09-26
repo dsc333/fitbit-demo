@@ -7,7 +7,7 @@ This retrieves an access token required to access Fitbit data programmatically. 
 https://dev.fitbit.com/build/reference/web-api/troubleshooting-guide/oauth2-tutorial/ 
 
 **steps.py:<br>**
-A minimal demo app that illustrates how to retrieve step data for a week.  You must first update the ACCESS_TOKEN variable.
+A minimal demo app that illustrates how to retrieve step data for a week.  You must first update the ACCESS_TOKEN variable.  Be sure to use a code editor such as Notepad++ or VS Code.  Built-in plain text editors such as Notepad usually append a .txt file extension, which will cause the Python program to fail (it's expecting a file named .env).  
 
 **fitbit_data.py:<br>**
 Set of utility functions (and tests) to retrieve step, HRV, and heart rate data.  Data is saved in csv files and returned as DataFrames.  Requires installation of python-dotenv module (see below).  Fitbit Web API documentation can be found at: https://dev.fitbit.com/build/reference/web-api/
